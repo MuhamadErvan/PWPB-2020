@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATTACUS ASIAPUS"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="20dp">
+
+    </EditText>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="20dp"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginLeft="20dp">
+
+    </EditText>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kampus"
+        android:textSize="20dp"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv4"
+        android:layout_marginLeft="20dp">
+
+    </EditText>
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/et3"
+        android:src="@drawable/asiap"
+        android:layout_marginLeft="10dp">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/et3"
+        android:src="@drawable/asiap"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/iv1">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/et3"
+        android:src="@drawable/asiap"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/iv2">
+
+    </ImageView>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:layout_below="@+id/iv1"
+        android:layout_marginLeft="100dp">
+
+    </Button>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/iv2"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_marginLeft="20dp">
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>
